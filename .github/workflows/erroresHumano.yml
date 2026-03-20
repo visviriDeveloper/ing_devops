@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Saludo
         run: echo "Hola Clase"
-      - name: Validar Scret
+      - name: Validar Secret
         run: echo "El Token es ${{ secrets.TOKEN }}"
 
 
