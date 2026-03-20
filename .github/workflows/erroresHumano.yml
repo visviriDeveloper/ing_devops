@@ -2,7 +2,7 @@ name: Pipeline con Errores
 on:
   push:
     branches: 
-      - main
+      - rama1
 
 jobs:
   build:
